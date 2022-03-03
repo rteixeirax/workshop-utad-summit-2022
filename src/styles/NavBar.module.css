@@ -1,0 +1,28 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  background-color: #f8f9fa;
+}
+.navBar a {
+  color: rgba(0,0,0,.5);
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navBar a:hover {
+  color: rgba(0,0,0,.7);
+}
+
+.navBarItemsContent {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2rem;
+}
+.navBarItemsContent a {
+  margin: 0 8px;
+}

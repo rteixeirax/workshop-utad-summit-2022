@@ -6,11 +6,30 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+}
+
+#__next {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 a {
-  color: inherit;
+  color: #007bff;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  color: rgb(33, 37, 41);
 }

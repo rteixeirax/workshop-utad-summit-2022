@@ -1,5 +1,5 @@
 {
-  "name": "utad_2022_todo_list",
+  "name": "workshop-utad-summit-2022",
   "private": true,
   "scripts": {
     "dev": "next dev",

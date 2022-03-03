@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Workshop Utad Summit 2022
+
+This repository is the source code of the workshop ***"React crash course using Nextjs"***
+
+👉 Powered by ![Moloni logo](https://github.com/ricardotx/workshop-utad-summit-2022/blob/main/public/moloni-logo-black.svg)
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies, and then run the development server:
 
 ```bash
+# Install all the dependencies
+npm i
+
+# Start the server in development mode
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the main page.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000/students](http://localhost:3000/students) with your browser to see the goal of this crash course.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Helpful documentation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### React
+- [React](https://reactjs.org/)
 
-## Learn More
+- [React.useState](https://reactjs.org/docs/hooks-reference.html#usestate)
 
-To learn more about Next.js, take a look at the following resources:
+- [React.createContext](https://reactjs.org/docs/context.html#reactcreatecontext)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [React.useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [React.Fragment](https://reactjs.org/docs/fragments.html)
 
-## Deploy on Vercel
+#### Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.Routing](https://nextjs.org/docs/routing/introduction)
+
+- [Next.useRouter](https://nextjs.org/docs/api-reference/next/router#userouter)
+
+- [Next.link](https://nextjs.org/docs/api-reference/next/link)
+
+- [Next.head](https://nextjs.org/docs/api-reference/next/head)
+
+- [Next.image](https://nextjs.org/docs/api-reference/next/image)
+
+### JavaScript
+
+- [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+- [Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+- [Array.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+- [Array.findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+
+- [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
